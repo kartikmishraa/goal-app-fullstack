@@ -5,6 +5,7 @@ const { errorHandler } = require("./middleware/errorMiddleware");
 const colors = require("colors");
 const connectDB = require("./config/db");
 
+// DB Connection
 connectDB();
 
 // Initializing the express app
